@@ -1,0 +1,59 @@
+* {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+$color_gold: #B99362;
+
+svg {
+    height: 100vh;
+}
+
+body {
+    background-color: #222;
+}
+
+path {
+    stroke: white;
+    fill: transparent;
+    transition: 0.5s;
+
+    &:hover {
+        fill: $color_gold;
+        transform: translate(-5px, -5px);
+    }
+}
+
+@media (min-width:720px) {
+    .title_area {
+        position: absolute;
+        left: 50vw;
+        right: 10vw;
+        top: 20px;
+        color: white;
+        font-size: 30px;
+
+    }
+}
+
+@media (max-width:720px) {
+    .title_area {
+        position: absolute;
+        left: 10vw;
+        top: 20px;
+        color: white;
+        font-size: 20px;
+
+    }
+}
+
+h1 span {
+    color: $color_gold;
+    padding-left: 10pt;
+}
+
+hr {
+    width: 100px;
+    margin-left: 0;
+    border: none;
+    border-bottom: solid 2px white;
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* line 1, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+* {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* line 7, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+svg {
+  height: 100vh;
+}
+
+/* line 11, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+body {
+  background-color: #222;
+}
+
+/* line 15, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+path {
+  stroke: white;
+  fill: transparent;
+  transition: 0.5s;
+}
+
+/* line 20, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+path:hover {
+  fill: #B99362;
+  transform: translate(-5px, -5px);
+}
+
+@media (min-width: 720px) {
+  /* line 27, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+  .title_area {
+    position: absolute;
+    left: 50vw;
+    right: 10vw;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* line 39, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+  .title_area {
+    position: absolute;
+    left: 10vw;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+/* line 49, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+h1 span {
+  color: #B99362;
+  padding-left: 10pt;
+}
+
+/* line 54, ../Users/rayku/OneDrive/Documents/程式語言/HTML練習/tw_weather_map/scss/style.scss */
+hr {
+  width: 100px;
+  margin-left: 0;
+  border: none;
+  border-bottom: solid 2px white;
+}
+
+/*# sourceMappingURL=style.css.map */
